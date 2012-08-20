@@ -1,0 +1,95 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>25 Years of Perl</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Dave Cross" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="header" class="step slide" data-x="0" data-y="-5850" data-scale="15">
+        <h1>25 Years<br />of Perl</h1>
+        <h2>(In about 25 minutes)</h2>
+        <p class="center">Dave Cross &lt;dave@perlhacks.com&gt;</p>
+    </div>
+
+[% FOR year IN years;
+   SET x_offset = get_x_offset(year);
+   SET y_offset = get_y_offset(year) -%]
+    <div class="step slide" id="[% year %]" data-x="[% -5040 + x_offset %]" data-y="[% 1560 + y_offset %]" data-scale="2">
+        <p class="center"><img src="[% year %].jpg" /></p>
+        <p class="year">[% year %]</p>
+    </div>
+
+    <div class="step slide" id="[% year %]-news" data-x="[% -6480 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
+        <q>Big News</q>
+        <ul>
+          <li>Perl released</li>
+        </ul>
+    </div>
+
+    <div class="step slide" id="[% year %]-rel" data-x="[% -5520 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
+        <q>Releases</q>
+    </div>
+
+    <div class="step slide" id="[% year %]-conf" data-x="[% -4560 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
+        <q>Conferences</q>
+        <ul>
+          <li>Nothing yet</li>
+        </ul>
+    </div>
+
+    <div class="step slide" id="[% year %]-book" data-x="[% -6480 + x_offset %]" data-y="[% 1170 + y_offset %]" data-scale="1">
+        <q>Books</q>
+        <ul>
+          <li>Nothing yet</li>
+        </ul>
+    </div>
+
+    <div class="step slide" id="[% year %]-stuff" data-x="[% -6480 + x_offset %]" data-y="[% 1950 + y_offset %]" data-scale="1">
+        <q>Stuff</q>
+        <ul>
+          <li>Nothing yet</li>
+        </ul>
+    </div>
+[% END %]
+
+    <div class="step" id="overview" data-x="0" data-y="0" data-scale="30">
+    </div>
+</div>
+
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>

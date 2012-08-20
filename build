@@ -1,0 +1,37 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use 5.010;
+
+use Template;
+
+my $t = Template->new;
+
+my $years = [ 1988 .. 2012 ];
+
+my $x_offset = sub {
+  my $year = shift;
+
+  my $x_offset = ($year - 1988) % 5;
+  $x_offset *= 960 * 3;
+
+  return $x_offset;
+};
+
+my $y_offset = sub {
+  my $year = shift;
+
+  my $y_offset = int(($year - 1988) / 5);
+  $y_offset *= 760 * 3;
+
+  return $y_offset;
+};
+
+$t->process('index.tt', {
+  years => $years,
+  get_x_offset => $x_offset,
+  get_y_offset => $y_offset,
+}, 'index.html')
+  or die $t->error;
+
