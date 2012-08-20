@@ -263,6 +263,11 @@ a:focus {
     text-align: center;
 }
 
+.slide img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .slide q strong {
     white-space: nowrap;
 }
