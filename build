@@ -28,10 +28,28 @@ my $y_offset = sub {
   return $y_offset;
 };
 
+my $releases = get_rel();
+
 $t->process('index.tt', {
+  releases => $releases,
   years => $years,
   get_x_offset => $x_offset,
   get_y_offset => $y_offset,
 }, 'index.html')
   or die $t->error;
 
+sub get_rel {
+  my $rel = {};
+
+  if (-f 'releases.txt') {
+    open my $fh, '<', 'releases.txt' or die $!;
+    while (<$fh>) {
+      next unless /\S/;
+      chomp;
+      my ($year, $release) = split /-/, $_, 2;
+      push @{$rel->{$year}}, $release;
+    }
+  }
+
+  return $rel;
+}

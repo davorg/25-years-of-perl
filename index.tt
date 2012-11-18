@@ -50,6 +50,15 @@
 
     <div class="step slide" id="[% year %]-rel" data-x="[% -5520 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
         <q>[% year %] Releases</q>
+[% IF releases.$year -%]
+        <ul>
+[%   FOREACH rel IN releases.$year -%]
+          <li>[% rel %]</li>
+[%   END -%]
+        </ul>
+[% ELSE -%]
+        <p>No releases in [% year %]</p>
+[% END -%]
     </div>
 
     <div class="step slide" id="[% year %]-conf" data-x="[% -4560 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
@@ -74,7 +83,10 @@
     </div>
 [% END %]
 
-    <div class="step" id="overview" data-x="0" data-y="0" data-scale="30">
+    <div class="step" id="overview" data-x="0" data-y="5850" data-scale="15">
+    </div>
+    <div class="step" id="thankyou" data-x="0" data-y="5850" data-scale="15">
+        <p id="thanks">Thank you</p>
     </div>
 </div>
 
