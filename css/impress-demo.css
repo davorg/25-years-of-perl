@@ -276,10 +276,10 @@ a:focus {
     font-size: 400%;
     font-weight: bold;
     -webkit-transform: rotate(90deg) translate(-270px,-325px);
-    -moz-transform:    rotate(90deg);
-    -ms-transform:     rotate(90deg);
-    -o-transform:      rotate(90deg);
-    transform:         rotate(90deg);
+    -moz-transform:    rotate(90deg) translate(-270px,-325px);
+    -ms-transform:     rotate(90deg) translate(-270px,-325px);
+    -o-transform:      rotate(90deg) translate(-270px,-325px);
+    transform:         rotate(90deg) translate(-270px,-325px);
 }
 
 /*
@@ -744,3 +744,20 @@ a:focus {
     Thanks for reading. I hope you enjoyed it at least as much as I enjoyed writing it
     for you.
 */
+
+p#thanks {
+  text-align: center;
+  font-size: 600%;
+  line-height: 75%;
+}
+
+.future p#thanks, .past p#thanks {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+
+.present p#thanks {
+  opacity: 1;
+}
