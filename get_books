@@ -1,0 +1,27 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use 5.010;
+
+use Net::Amazon;
+use Data::Dumper;
+
+my $amz = Net::Amazon->new(
+  associate_tag => $ENV{AMAZON_ASSTAG},
+  token         => $ENV{AMAZON_KEY},
+  secret_key    => $ENV{AMAZON_SECRET},
+) or die;
+
+my $resp = $amz->search(
+  mode => 'books',
+  title => 'Programming Perl',
+  year => 1991,
+);
+
+for ($resp->properties) {
+  say $_->Asin, ' ',
+      $_->title, ' ',
+      $_->year, ' ',
+      join ', ', $_->authors;
+}
