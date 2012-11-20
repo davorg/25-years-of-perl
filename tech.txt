@@ -1,19 +1,24 @@
 1988 Perl
 1989
 1990
-1991
+1991 Perl 4
 1992 MacPerl
 1993 cgi-lib.pl
+1993 Perl Packrats
 1994 Perl 5
 1994 DBI
 1994 CGI
+1994 perl.com
 1995 CPAN
+1995 Schwartzian Transform
 1995 Matt's Script Archive
 1995 LWP
 1995 DBD::mysql
+1995 perl.org
 1996 mod_perl
 1996 Test::Harness
-1997
+1996 Zeroth Annual Obfuscated Perl Contest
+1997 purl
 1998 HTML::Mason
 1998 POE
 1998 XML::Parser

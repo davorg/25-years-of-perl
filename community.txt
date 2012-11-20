@@ -1,10 +1,18 @@
+1988 First JAPH
 1989 comp.lang.perl
+1990 Perl poetry
 1995 perl.com
-
+1996 The Perl Journal
 1997 The Perl Conference
 1997 New York Perl Mongers
+1998 The Perl Institute
 1998 London Perl Mongers
 1999 First YAPC::NA
+1999 Perlmonth
+1999 White Camel Awards
 2000 First YAPC::EU
+2000 Perl Monks
+2000 First Perl Whirl
 2001 use.perl.org launched
-
+2001 Perl Monks and Perl Mongers join YAS
+2001 YAS forms TPF
