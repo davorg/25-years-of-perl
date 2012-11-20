@@ -62,14 +62,18 @@
     <div class="step slide" id="[% year %]-conf" data-x="[% -4560 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
         <q>[% year %] Community</q>
         <ul>
-          <li>Nothing yet</li>
+[%   FOREACH comm IN community.$year -%]
+          <li>[% comm %]</li>
+[%   END -%]
         </ul>
     </div>
 
     <div class="step slide" id="[% year %]-book" data-x="[% -6480 + x_offset %]" data-y="[% 1170 + y_offset %]" data-scale="1">
         <q>[% year %] Technical</q>
         <ul>
-          <li>Nothing yet</li>
+[%   FOREACH t IN tech.$year -%]
+          <li>[% t %]</li>
+[%   END -%]
         </ul>
     </div>
 
