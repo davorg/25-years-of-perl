@@ -3,7 +3,7 @@
 1990
 1991
 1992 MacPerl
-1993
+1993 cgi-lib.pl
 1994 Perl 5
 1994 DBI
 1994 CGI
@@ -20,15 +20,18 @@
 1999 Template Toolkit
 1999 Class::DBI
 2000 Perl 6 (announced)
+2000 Testing Revolution
 2000 ActivePerl
 2001
 2002 nms
 2002 CPANPLUS
+2003 PONIE
 2003 Email::Simple
 2003 DateTime
 2004 Maypole
 2004 Catalyst
 2005 DBIx::Class
+2005 Pugs
 2006
 2007 Strawberry Perl
 2008 Mojolicious
