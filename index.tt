@@ -42,10 +42,8 @@
     </div>
 
     <div class="step slide" id="[% year %]-news" data-x="[% -6480 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
-        <q>[% year %] Headlines</q>
-        <ul>
-          <li>Perl released</li>
-        </ul>
+        <q>[% year %]</q>
+        <p>[% headlines.$year %]</p>
     </div>
 
     <div class="step slide" id="[% year %]-rel" data-x="[% -5520 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">

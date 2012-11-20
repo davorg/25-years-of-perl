@@ -1,0 +1,10 @@
+1989 comp.lang.perl
+1995 perl.com
+
+1997 The Perl Conference
+1997 New York Perl Mongers
+1998 London Perl Mongers
+1999 First YAPC::NA
+2000 First YAPC::EU
+2001 use.perl.org launched
+

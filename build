@@ -32,6 +32,7 @@ my $releases = get_rel();
 
 $t->process('index.tt', {
   releases => $releases,
+  headlines => get_headlines(),
   years => $years,
   get_x_offset => $x_offset,
   get_y_offset => $y_offset,
@@ -52,4 +53,20 @@ sub get_rel {
   }
 
   return $rel;
+}
+
+sub get_headlines {
+  my $hl = {};
+  
+  if (-f 'headlines.txt') {
+    open my $fh, '<', 'headlines.txt' or die $!;
+    while (<$fh>) {
+      next unless /\S/;
+      chomp;
+      my ($year, $headline) = split /\s+/, $_, 2;
+      $hl->{$year} = $headline;
+    }
+  }
+  
+  return $hl;
 }
