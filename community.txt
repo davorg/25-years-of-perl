@@ -13,6 +13,7 @@
 2000 First YAPC::EU
 2000 Perl Monks
 2000 First Perl Whirl
+2000 Perl Advent Calendar
 2001 use.perl.org launched
 2001 Perl Monks and Perl Mongers join YAS
 2001 YAS forms TPF
