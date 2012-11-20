@@ -43,5 +43,6 @@
 2009 Dancer
 2009 PSGI/Plack
 2010 App::cpanminus
+2010 Annual release cycle
 2011
 2012
