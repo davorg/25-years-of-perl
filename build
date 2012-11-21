@@ -5,6 +5,7 @@ use warnings;
 use 5.010;
 
 use Template;
+use Data::Dumper;
 
 my $t = Template->new;
 
@@ -28,45 +29,57 @@ my $y_offset = sub {
   return $y_offset;
 };
 
-my $releases = get_rel();
-
 $t->process('index.tt', {
-  releases => $releases,
+  releases => get_rel(),
   headlines => get_headlines(),
+  tech => get_tech(),
+  community => get_community(),
   years => $years,
   get_x_offset => $x_offset,
   get_y_offset => $y_offset,
 }, 'index.html')
   or die $t->error;
 
-sub get_rel {
-  my $rel = {};
-
-  if (-f 'releases.txt') {
-    open my $fh, '<', 'releases.txt' or die $!;
+sub get_list {
+  my ($file) = @_;
+  
+  my $list = {};
+  
+  if (-f $file) {
+    open my $fh, '<', $file or die $!;
     while (<$fh>) {
       next unless /\S/;
       chomp;
-      my ($year, $release) = split /-/, $_, 2;
-      push @{$rel->{$year}}, $release;
+      my ($year, $data) = split /\s+/, $_, 2;
+      push @{$list->{$year}}, $data;
     }
+  } else {
+    warn "File: $file not found";
   }
+  
+  say Dumper $list;
+  
+  return $list;
+}
 
-  return $rel;
+sub get_rel {
+  return get_list('releases.txt');
 }
 
 sub get_headlines {
-  my $hl = {};
+  my $hl = get_list('headlines.txt');
   
-  if (-f 'headlines.txt') {
-    open my $fh, '<', 'headlines.txt' or die $!;
-    while (<$fh>) {
-      next unless /\S/;
-      chomp;
-      my ($year, $headline) = split /\s+/, $_, 2;
-      $hl->{$year} = $headline;
-    }
+  foreach (keys $hl) {
+    $hl->{$_} = $hl->{$_}[0];
   }
-  
+
   return $hl;
+}
+
+sub get_tech {
+   return get_list('tech.txt');
+}
+
+sub get_community {
+   return get_list('community.txt');
 }
