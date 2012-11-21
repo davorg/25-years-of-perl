@@ -1,0 +1,115 @@
+1991 0937175641 Programming Perl
+1993 1565920422 Learning Perl
+1996 1565921879 Perl 5 Desktop Reference
+1996 1565921682 CGI Programming on the World Wide Web
+1996 B00005UL4D Programming Perl (2ed)
+1997 1565922840 Learning Perl (2ed)
+1997 1565922204 Advanced Perl Programming
+1997 1565923243 Learning Perl on Win32 Systems
+1997 0471168963 CGI Cookbook
+1997 0201419750 Effective Perl Programming
+1997 1565923707 Perl Resource Kit
+1998 1881957322 MacPerl: Power and Ease
+1998 1565922433 The Perl Cookbook (1ed)
+1998 1565924959 Perl 5 Pocket Reference (2ed)
+1998 B00006AVR0 Perl in a Nutshell
+1998 0764504606 Perl for Dummies (2ed)
+1999 B00005UL4M Learning Perl/Tk
+1999 1565924789 Programming Web Graphics with Perl & Gnu Software
+1999 156592567X Writing Apache Modules with Perl and C
+1999 1884777791 Object Oriented Perl
+1999 1565923987 Mastering Algorithms with Perl
+1999 1565924622 Perl CD Bookshelf
+1999 1884777805 Elements of Programming with Perl
+1999 0672317737 Teach Yourself Perl in 24 Hours
+1999 020135358X Perl and CGI for the World Wide Wed (1ed)
+2000 1565926994 Programming the Perl DBI
+2000 0596000324 Perl 5 Pocket Reference (3ed)
+2000 1565926099 Perl for System Administration (1ed)
+2000 1565924193 CGI Programming with Perl (2ed)
+2000 0966942604 CGI Programming 101 (1ed)
+2000 1861003145 Beginning Perl (1ed)
+2000 0596000278 Programming Perl (3ed)
+2000 0072126760 Debugging Perl
+2000 0764507761 Perl for Dummies (3ed)
+2000 0596000472 The mod_perl Pocket Reference
+2001 0201615711 Network Programming with Perl
+2001 1930110006 Data Munging with Perl
+2001 0072129506 Perl: The Complete Reference
+2001 0596001649 Perl CD Bookshelf Version 2.0
+2001 B0000B0T0S Professional Perl Programming
+2001 007212962X Instant Perl Modules
+2001 0201710145 Writing CGI Applications with Perl
+2001 0201700549 Perl Debugged
+2001 1861004389 Professional Perl Development
+2001 0072133872 Instant CGI/Perl
+2001 0201735687 Perl and CGI for the World Wide Wed (2ed)
+2001 0596001320 Learning Perl (3ed)
+2001 0672320673 Perl Developer's Dictionary
+2001 0735711143 Perl for the Web
+2001 0735710546 MySQL and Perl for the Web
+2001 1565926471 Perl for Web Site Management
+2001 0596000804 Beginning Perl for Bioinformatics
+2001 0130351814 Core Perl
+2002 1565927168 Mastering Perl/Tk
+2002 0672322404 mod_perl Developer's Cookbook
+2002 0130089656 Modern Perl Programming
+2002 1930110065 Web Development with Apache and Perl
+2002 059600205X Perl and XML
+2002 Perl in a Nutshell (2ed)
+2002 Graphics Programming with Perl
+2002 Teach Yourself Perl in 21 Days (2ed)
+2002 Perl Pocket Reference (4ed)
+2002 Perl & LWP
+2002 Perl Black Book
+2002 Perl for C Programmers
+2002 Exending and Embedding Perl
+2002 Writing Perl Modules for CPAN
+2002 Perl for Oracle DBAs
+2002 Teach Yourself CGI in 24 Hours (2ed)
+2002 Embedding Perl in HTML with Mason
+2002 XML and Perl
+2002 0596003897 The Perl CD Bookshelf Version 3.0
+2002 Best of the Perl Journal: Computer Science and Perl Programming
+2002 Programming Web Services with Perl
+2002 Perl Graphics Programming
+2003 Best of the Perl Journal: Web Graphics & Perl/Tk
+2003 0764537504 Perl for Dummies (4ed)
+2003 Practical mod_perl
+2003 Mastering Perl for Bioinformatics
+2003 Learning Perl Objects, References and Modules
+2003 Perl 6 Essentials
+2003 Perl Cookbook (2ed)
+2003 Perl in Easy Steps
+2003 Perl Template Toolkit
+2004 Perl Debugger Pocket Reference
+2004 CGI Programming 101 (2ed)
+2004 Perl Medic
+2004 0596006225 The Perl CD Bookshelf Version 4.0
+2004 Perl 6 and Parrot Essentials (2ed)
+2004 Best of the Perl Journal: Games, Diversions & Perl Culture
+2004 Beginning Perl (2ed)
+2004 Randal Schwartz's Perls of Wisdom
+2005 Pro Perl
+2005 Higher Order Perl
+2005 Teach Yourself Perl in 24 Hours (3ed)
+2005 Advanced Perl Programming (2ed)
+2005 Perl Best Practices
+2005 Perl Testing: A Developer's Notebook
+2005 Learning Perl (4ed)
+2006 Beginning Perl Web Development
+2006 Perl Hacks
+2006 Minimal Perl
+2007 Mastering Perl
+2007 mod_perl 2 Users' Guide
+2007 Perl by Example (4ed)
+2008 Learning Perl (5ed)
+2009 Automating System Administration with Perl
+2009 Definitive Guide to Catalyst
+2010 Beginning Perl (2ed)
+2011 Learning Perl (6ed)
+2011 Perl 5 Pocket Reference (5ed)
+2011 Modern Perl (2ed)
+2012 Intermediate Perl (2ed)
+2012 Programming Perl (4ed)
+2012 Beginning Perl

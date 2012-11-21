@@ -1,16 +1,19 @@
-1991 Programming Perl (1ed)
-1993 Learning Perl (1ed)
+1991 Programming Perl
+1993 Learning Perl
+1996 Perl 5 Desktop Reference
+1996 CGI Programming on the World Wide Web
 1996 Programming Perl (2ed)
 1997 Learning Perl (2ed)
-1997 Advanced Perl Programming (1ed)
+1997 Advanced Perl Programming
 1997 Learning Perl on Win32 Systems
-1997 CGI/Perl Cookboo
+1997 CGI Cookbook
 1997 Effective Perl Programming
 1997 Perl Resource Kit
 1998 MacPerl: Power and Ease
 1998 The Perl Cookbook (1ed)
 1998 Perl 5 Pocket Reference (2ed)
 1998 Perl in a Nutshell
+1998 Perl for Dummies (2ed)
 1999 Learning Perl/Tk
 1999 Programming Web Graphics with Perl & Gnu Software
 1999 Writing Apache Modules with Perl and C
@@ -19,21 +22,21 @@
 1999 Perl CD Bookshelf
 1999 Elements of Programming with Perl
 1999 Teach Yourself Perl in 24 Hours
+1999 Perl and CGI for the World Wide Wed (1ed)
 2000 Programming the Perl DBI
 2000 Perl 5 Pocket Reference (3ed)
 2000 Perl for System Administration (1ed)
-2000 CGI Programming with Perl (1ed)
+2000 CGI Programming with Perl (2ed)
 2000 CGI Programming 101 (1ed)
 2000 Beginning Perl (1ed)
-2000 CGI Programming with Perl (2ed)
 2000 Programming Perl (3ed)
-2000 Perl for System Administration 2000
 2000 Debugging Perl
 2000 Perl for Dummies (3ed)
 2000 The mod_perl Pocket Reference
 2001 Network Programming with Perl
 2001 Data Munging with Perl
 2001 Perl: The Complete Reference
+2001 Perl CD Bookshelf Version 2.0
 2001 Professional Perl Programming
 2001 Instant Perl Modules
 2001 Writing CGI Applications with Perl
@@ -48,7 +51,6 @@
 2001 Perl for Web Site Management
 2001 Beginning Perl for Bioinformatics
 2001 Core Perl
-2002 Mastering Perl/Tk
 2002 mod_perl Developer's Cookbook
 2002 Modern Perl Programming
 2002 Web Development with Apache and Perl
@@ -56,6 +58,7 @@
 2002 Perl in a Nutshell (2ed)
 2002 Graphics Programming with Perl
 2002 Teach Yourself Perl in 21 Days (2ed)
+2002 Perl Pocket Reference (4ed)
 2002 Perl & LWP
 2002 Perl Black Book
 2002 Perl for C Programmers
@@ -65,11 +68,12 @@
 2002 Teach Yourself CGI in 24 Hours (2ed)
 2002 Embedding Perl in HTML with Mason
 2002 XML and Perl
+2002 0596003897 The Perl CD Bookshelf Version 3.0
 2002 Best of the Perl Journal: Computer Science and Perl Programming
 2002 Programming Web Services with Perl
 2002 Perl Graphics Programming
 2003 Best of the Perl Journal: Web Graphics & Perl/Tk
-2003 Perl for Dummies (4ed)
+2003 0764537504 Perl for Dummies (4ed)
 2003 Practical mod_perl
 2003 Mastering Perl for Bioinformatics
 2003 Learning Perl Objects, References and Modules
@@ -80,6 +84,7 @@
 2004 Perl Debugger Pocket Reference
 2004 CGI Programming 101 (2ed)
 2004 Perl Medic
+2004 0596006225 The Perl CD Bookshelf Version 4.0
 2004 Perl 6 and Parrot Essentials (2ed)
 2004 Best of the Perl Journal: Games, Diversions & Perl Culture
 2004 Beginning Perl (2ed)

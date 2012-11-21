@@ -38,7 +38,7 @@
 2004 Catalyst
 2005 DBIx::Class
 2005 Pugs
-2006
+2006 Moose
 2007 Strawberry Perl
 2008 Mojolicious
 2009 Dancer
