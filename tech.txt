@@ -30,6 +30,7 @@
 2001
 2002 nms
 2002 CPANPLUS
+2002 WWW::Mechanize
 2003 PONIE
 2003 Email::Simple
 2003 DateTime
