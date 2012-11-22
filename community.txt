@@ -8,6 +8,7 @@
 1998 The Perl Institute
 1998 London Perl Mongers
 1999 First YAPC::NA
+1999 German Perl Workshop
 1999 Perlmonth
 1999 White Camel Awards
 2000 First YAPC::EU
@@ -17,3 +18,4 @@
 2001 use.perl.org launched
 2001 Perl Monks and Perl Mongers join YAS
 2001 YAS forms TPF
+2008 Copenhagen Marketing BOF

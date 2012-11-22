@@ -16,9 +16,11 @@
 1995 DBD::mysql
 1995 perl.org
 1996 mod_perl
+1996 CPAN shell
 1996 Test::Harness
 1996 Zeroth Annual Obfuscated Perl Contest
 1997 purl
+1998 OnePerl
 1998 HTML::Mason
 1998 POE
 1998 XML::Parser
@@ -27,7 +29,7 @@
 2000 Perl 6 (announced)
 2000 Testing Revolution
 2000 ActivePerl
-2001
+2001 Acme::*
 2002 nms
 2002 CPANPLUS
 2002 WWW::Mechanize
