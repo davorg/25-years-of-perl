@@ -80,7 +80,9 @@
     <div class="step slide" id="[% year %]-stuff" data-x="[% -6480 + x_offset %]" data-y="[% 1950 + y_offset %]" data-scale="1">
         <q>[% year %] Books</q>
         <ul>
-          <li>Nothing yet</li>
+[%   FOREACH book IN books.$year -%]
+          <li>[% book %]</li>
+[%   END -%]
         </ul>
     </div>
 [% END %]

@@ -34,6 +34,7 @@ $t->process('index.tt', {
   headlines => get_headlines(),
   tech => get_tech(),
   community => get_community(),
+  books => get_books(),
   years => $years,
   get_x_offset => $x_offset,
   get_y_offset => $y_offset,
@@ -80,4 +81,8 @@ sub get_tech {
 
 sub get_community {
    return get_list('community.txt');
+}
+
+sub get_books {
+  return get_list('books.txt');
 }
