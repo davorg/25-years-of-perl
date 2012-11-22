@@ -20,6 +20,7 @@
 1996 Test::Harness
 1996 Zeroth Annual Obfuscated Perl Contest
 1997 purl
+1998 CPAN Testers
 1998 OnePerl
 1998 HTML::Mason
 1998 POE
