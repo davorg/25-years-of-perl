@@ -18,4 +18,5 @@
 2001 use.perl.org launched
 2001 Perl Monks and Perl Mongers join YAS
 2001 YAS forms TPF
+2001 YAPC Auctions
 2008 Copenhagen Marketing BOF
