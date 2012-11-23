@@ -31,6 +31,7 @@
 2000 Testing Revolution
 2000 ActivePerl
 2001 Acme::*
+2001 Parrot
 2002 nms
 2002 CPANPLUS
 2002 WWW::Mechanize
@@ -48,8 +49,9 @@
 2009 PSGI/Plack
 2010 App::cpanminus
 2010 Annual release cycle
+2010 metacpan
+2010 Rakudo *
 2011
 2012
 
-metacpan
 Rakudo *
