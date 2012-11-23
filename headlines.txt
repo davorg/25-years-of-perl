@@ -1,25 +1,25 @@
 1988 Perl 1.0 (and 2.0) Released!
 1989 Perl 3.0 Released
-1990 
+1990 Black Perl
 1991 Pink Camel published
-1992 
+1992 MacPerl
 1993 Pink Llama published
 1994 Perl 5 Released
 1995 CPAN launched
 1996 The Perl Journal
-1997 The Perl Conference / Perl Mongers
+1997 The Perl Conference
 1998 London Perl Mongers
 1999 First YAPC
-2000 Perl 6 announced
+2000 Coffee Cups
 2001 Damian Conway works for us
-2002 
-2003
+2002 nms
+2003 Perl On New Internal Engine
 2004 Catalyst
 2005 DBIx::Class
 2006 Moose
 2007 Strawberry Perl
-2008
+2008 Marketing
 2009 PSGI
-2010
-2011
-2012
+2010 Rakudo *
+2011 Money!
+2012 New Camel

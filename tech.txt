@@ -1,20 +1,18 @@
 1988 Perl
-1989
+1989 Binary data
 1990
 1991 Perl 4
 1992 MacPerl
 1993 cgi-lib.pl
-1993 Perl Packrats
 1994 Perl 5
 1994 DBI
 1994 CGI
-1994 perl.com
 1995 CPAN
 1995 Schwartzian Transform
 1995 Matt's Script Archive
 1995 LWP
 1995 DBD::mysql
-1995 perl.org
+1995 RSA encryption/decryption
 1996 mod_perl
 1996 CPAN shell
 1996 Test::Harness
@@ -27,15 +25,18 @@
 1998 XML::Parser
 1999 Template Toolkit
 1999 Class::DBI
+1999 Perl Power Tools
+1999 Perl Golf
 2000 Perl 6 (announced)
 2000 Testing Revolution
 2000 ActivePerl
+2000 Symbol::Approx::Sub
 2001 Acme::*
 2001 Parrot
-2002 nms
+2001 Test::Builder
+2001 Movable Type
 2002 CPANPLUS
 2002 WWW::Mechanize
-2003 PONIE
 2003 Email::Simple
 2003 DateTime
 2004 Maypole
@@ -43,13 +44,15 @@
 2005 DBIx::Class
 2005 Pugs
 2006 Moose
+2006 Plagger
 2007 Strawberry Perl
+2008 Test Anything Protocol
+2008 Dist::Zilla
 2008 Mojolicious
-2009 Dancer
 2009 PSGI/Plack
-2010 App::cpanminus
-2010 Annual release cycle
-2010 metacpan
+2009 Dancer
 2010 Rakudo *
-2011
-2012
+2010 App::cpanminus
+2010 metacpan
+2011 Carton
+2012 ????

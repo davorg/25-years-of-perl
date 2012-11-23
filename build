@@ -38,6 +38,7 @@ $t->process('index.tt', {
   years => $years,
   get_x_offset => $x_offset,
   get_y_offset => $y_offset,
+  disp_year => \&disp_year,
 }, 'index.html')
   or die $t->error;
 
@@ -57,7 +58,10 @@ sub get_list {
   } else {
     warn "File: $file not found";
   }
-  
+
+  $list->{1988} = [ @{$list->{1987} || []}, @{$list->{1988} || []} ];
+  delete $list->{1987};
+
   return $list;
 }
 
@@ -85,4 +89,8 @@ sub get_community {
 
 sub get_books {
   return get_list('books.txt');
+}
+
+sub disp_year {
+   return $_[0] == 1988 ? '1987/8' : $_[0];
 }

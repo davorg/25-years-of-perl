@@ -30,7 +30,7 @@
     <div id="header" class="step slide" data-x="0" data-y="-5850" data-scale="15">
         <h1>25 Years<br />of Perl</h1>
         <h2>(In about 25 minutes)</h2>
-        <p class="center">Dave Cross &lt;dave@perlhacks.com&gt;</p>
+        <p class="center credits">Dave Cross &lt;dave@perlhacks.com&gt;</p>
     </div>
 
 [% FOR year IN years;
@@ -38,18 +38,18 @@
    SET y_offset = get_y_offset(year) -%]
     <div class="step slide" id="[% year %]" data-x="[% -5040 + x_offset %]" data-y="[% 1560 + y_offset %]" data-scale="2">
         <p class="center"><img src="[% year %].jpg" /></p>
-        <p class="year">[% year %]</p>
+        <p class="year">[% disp_year(year) %]</p>
     </div>
 
     <div class="step slide" id="[% year %]-news" data-x="[% -6480 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
-        <q>[% year %]</q>
-        <p>[% headlines.$year %]</p>
+        <q>[% disp_year(year) %]</q>
+        <p class="center">[% headlines.$year %]</p>
     </div>
 
     <div class="step slide" id="[% year %]-rel" data-x="[% -5520 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
-        <q>[% year %] Releases</q>
+        <q>[% disp_year(year) %] Releases</q>
 [% IF releases.$year -%]
-        <ul>
+        <ul class="small">
 [%   FOREACH rel IN releases.$year -%]
           <li>[% rel %]</li>
 [%   END -%]
@@ -60,7 +60,7 @@
     </div>
 
     <div class="step slide" id="[% year %]-conf" data-x="[% -4560 + x_offset %]" data-y="[% 390 + y_offset %]" data-scale="1">
-        <q>[% year %] Community</q>
+        <q>[% disp_year(year) %] Community</q>
         <ul>
 [%   FOREACH comm IN community.$year -%]
           <li>[% comm %]</li>
@@ -69,7 +69,7 @@
     </div>
 
     <div class="step slide" id="[% year %]-book" data-x="[% -6480 + x_offset %]" data-y="[% 1170 + y_offset %]" data-scale="1">
-        <q>[% year %] Technical</q>
+        <q>[% disp_year(year) %] Technical</q>
         <ul>
 [%   FOREACH t IN tech.$year -%]
           <li>[% t %]</li>
@@ -78,8 +78,8 @@
     </div>
 
     <div class="step slide" id="[% year %]-stuff" data-x="[% -6480 + x_offset %]" data-y="[% 1950 + y_offset %]" data-scale="1">
-        <q>[% year %] Books</q>
-        <ul>
+        <q>[% disp_year(year) %] Books</q>
+        <ul class="small">
 [%   FOREACH book IN books.$year -%]
           <li>[% book %]</li>
 [%   END -%]

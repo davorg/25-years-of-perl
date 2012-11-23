@@ -1,27 +1,53 @@
 1988 First JAPH
 1989 comp.lang.perl
 1990 Perl poetry
+1991 Artistic Licence
+1993 Perl Packrats
+1994 Perl 5 Porters
 1995 perl.com
+1995 perl.org
+1995 comp.lang.perl.misc
 1996 The Perl Journal
 1997 The Perl Conference
 1997 New York Perl Mongers
 1998 The Perl Institute
 1998 London Perl Mongers
+1999 TPC becomes OSCON
 1999 First YAPC::NA
 1999 German Perl Workshop
 1999 Perlmonth
 1999 White Camel Awards
+1999 Yet Another Society
+1999 Rhizomatic (irc.perl.org)
 2000 First YAPC::EU
 2000 Perl Monks
 2000 First Perl Whirl
 2000 Perl Advent Calendar
 2001 use.perl.org launched
 2001 Perl Monks and Perl Mongers join YAS
-2001 YAS forms TPF
-2008 Copenhagen Marketing BOF
+2001 YAS forms The Perl Foundation
 2001 YAPC Auctions
 2001 Parrot (April Fool)
+2002 nms
+2002 The Perl Review
+2003 PONIE
+2003 A Conference Toolkit
+2004 Catalyst community
+2005 Google Summer of Code
+2005 Planet Perl
+2005 Perl Mongers Census
+2007 Perl Buzz
+2007 $foo Magazin
+2008 QA Hackathon
 2008 Copenhagen Marketing BOF
 2008 Enlightened Perl Organisation
+2009 Send-a-Newbie
 2009 Iron Man
 2009 blogs.perl.org
+2009 New perl.org
+2010 Annual release cycle
+2011 Perl Weekly
+2011 Perl News
+2011 New perl.com
+2011 TPF Perl Core Maintenance Fund
+2012 Community Summit

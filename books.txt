@@ -1,3 +1,4 @@
+1987 man perl
 1991 Programming Perl
 1993 Learning Perl
 1996 Perl 5 Desktop Reference
@@ -62,7 +63,7 @@
 2002 Perl & LWP
 2002 Perl Black Book
 2002 Perl for C Programmers
-2002 Exending and Embedding Perl
+2002 Extending and Embedding Perl
 2002 Writing Perl Modules for CPAN
 2002 Perl for Oracle DBAs
 2002 Teach Yourself CGI in 24 Hours (2ed)
@@ -102,10 +103,14 @@
 2007 Mastering Perl
 2007 mod_perl 2 Users' Guide
 2007 Perl by Example (4ed)
+2007 Catalyst
 2008 Learning Perl (5ed)
+2008 Professional Perl and MySQL
 2009 Automating System Administration with Perl
 2009 Definitive Guide to Catalyst
-2010 Beginning Perl (2ed)
+2010 Catalyst 5.8: The Perl MVC Framework
+2010 Effective Perl Programming (2ed)
+2010 Beginning Perl (3ed)
 2011 Learning Perl (6ed)
 2011 Perl 5 Pocket Reference (5ed)
 2011 Modern Perl (2ed)
