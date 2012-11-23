@@ -68,7 +68,7 @@ sub get_rel {
 sub get_headlines {
   my $hl = get_list('headlines.txt');
   
-  foreach (keys $hl) {
+  foreach (keys %$hl) {
     $hl->{$_} = $hl->{$_}[0];
   }
 

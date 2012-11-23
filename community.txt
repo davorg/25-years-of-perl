@@ -19,7 +19,9 @@
 2001 Perl Monks and Perl Mongers join YAS
 2001 YAS forms TPF
 2008 Copenhagen Marketing BOF
-
-Enlightened Perl
-Iron Man
-blogs.perl.org
+2001 YAPC Auctions
+2001 Parrot (April Fool)
+2008 Copenhagen Marketing BOF
+2008 Enlightened Perl Organisation
+2009 Iron Man
+2009 blogs.perl.org
