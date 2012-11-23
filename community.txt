@@ -20,3 +20,7 @@
 2001 YAS forms TPF
 2001 YAPC Auctions
 2008 Copenhagen Marketing BOF
+
+Enlightened Perl
+Iron Man
+blogs.perl.org

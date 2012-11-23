@@ -50,3 +50,6 @@
 2010 Annual release cycle
 2011
 2012
+
+metacpan
+Rakudo *
