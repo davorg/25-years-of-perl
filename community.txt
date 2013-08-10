@@ -20,13 +20,14 @@
 1999 Yet Another Society
 1999 Rhizomatic (irc.perl.org)
 2000 First YAPC::EU
+2000 Lightning Talks
 2000 Perl Monks
 2000 First Perl Whirl
 2000 Perl Advent Calendar
 2001 use.perl.org launched
 2001 Perl Monks and Perl Mongers join YAS
 2001 YAS forms The Perl Foundation
-2001 YAPC Auctions
+2001 YAPC Auctions get silly
 2001 Parrot (April Fool)
 2002 nms
 2002 The Perl Review
@@ -36,6 +37,8 @@
 2005 Google Summer of Code
 2005 Planet Perl
 2005 Perl Mongers Census
+2005 YAPC::Asia
+2006 Artistic Licence 2.0
 2007 Perl Buzz
 2007 $foo Magazin
 2008 QA Hackathon

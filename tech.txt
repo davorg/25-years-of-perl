@@ -1,6 +1,5 @@
 1988 Perl
 1989 Binary data
-1990
 1991 Perl 4
 1992 MacPerl
 1993 cgi-lib.pl
@@ -14,6 +13,7 @@
 1995 DBD::mysql
 1995 RSA encryption/decryption
 1996 mod_perl
+1996 PDL
 1996 CPAN shell
 1996 Test::Harness
 1996 Zeroth Annual Obfuscated Perl Contest
@@ -34,9 +34,11 @@
 2001 Acme::*
 2001 Parrot
 2001 Test::Builder
+2001 Devel::Cover
 2001 Movable Type
 2002 CPANPLUS
 2002 WWW::Mechanize
+2002 PPI
 2003 Email::Simple
 2003 DateTime
 2004 Maypole
@@ -46,13 +48,18 @@
 2006 Moose
 2006 Plagger
 2007 Strawberry Perl
+2007 local::lib
 2008 Test Anything Protocol
 2008 Dist::Zilla
 2008 Mojolicious
+2008 Devel::Cover
+2008 Padre
 2009 PSGI/Plack
 2009 Dancer
 2010 Rakudo *
 2010 App::cpanminus
 2010 metacpan
+2010 perlbrew
 2011 Carton
-2012 ????
+2012 Sqitch
+2012 Message::Passing
